@@ -3353,9 +3353,9 @@ graphql-playground-middleware-express@^1.7.8:
     graphql-playground-html "^1.6.29"
 
 graphql-scalars@^1.9.0:
-  version "1.9.3"
-  resolved "https://registry.yarnpkg.com/graphql-scalars/-/graphql-scalars-1.9.3.tgz#84d27e42d280a16821ab0ef59cddaac84f798575"
-  integrity sha512-vP71Og4ALfe3PCk6T+B7LcJHH55gL0tYidmAE/kWT3ScE2FUCFS7iiMXFQXjCaYLi8nZcRLn9HuejGcjZ8kRug==
+  version "1.10.0"
+  resolved "https://registry.yarnpkg.com/graphql-scalars/-/graphql-scalars-1.10.0.tgz#9daf9252b16e6fae553a06976163a23f41b65dfd"
+  integrity sha512-LONlj8FfhA2iGpkZJWf5e4PVAHXxnZEHSOEvowLYvNXl/TNnhIck8VmE+lren/aa6GKrG+lZufo5lgnyjxcF6g==
   dependencies:
     tslib "~2.2.0"
 
@@ -6327,52 +6327,47 @@ tar-stream@^2.0.0:
     readable-stream "^3.1.1"
 
 "taskcluster-client@link:clients/client":
-  version "0.0.0"
-  uid ""
+  version "44.1.0"
+  dependencies:
+    debug "^4.1.1"
+    got "^11.8.1"
+    hawk "^9.0.0"
+    lodash "^4.17.4"
+    slugid "^2.0.0"
+    taskcluster-lib-urls "^13.0.0"
 
 "taskcluster-db@link:db":
-  version "0.0.0"
-  uid ""
+  version "44.1.0"
 
 "taskcluster-lib-api@link:libraries/api":
-  version "0.0.0"
-  uid ""
+  version "44.1.0"
 
 "taskcluster-lib-app@link:libraries/app":
-  version "0.0.0"
-  uid ""
+  version "44.1.0"
 
 "taskcluster-lib-azqueue@link:libraries/azqueue":
-  version "0.0.0"
-  uid ""
+  version "44.1.0"
 
 "taskcluster-lib-config@link:libraries/config":
-  version "0.0.0"
-  uid ""
+  version "44.1.0"
 
 "taskcluster-lib-iterate@link:libraries/iterate":
-  version "0.0.0"
-  uid ""
+  version "44.1.0"
 
 "taskcluster-lib-loader@link:libraries/loader":
-  version "0.0.0"
-  uid ""
+  version "44.1.0"
 
 "taskcluster-lib-monitor@link:libraries/monitor":
-  version "0.0.0"
-  uid ""
+  version "44.1.0"
 
 "taskcluster-lib-postgres@link:libraries/postgres":
-  version "0.0.0"
-  uid ""
+  version "44.1.0"
 
 "taskcluster-lib-pulse@link:libraries/pulse":
-  version "0.0.0"
-  uid ""
+  version "44.1.0"
 
 "taskcluster-lib-references@link:libraries/references":
-  version "0.0.0"
-  uid ""
+  version "44.1.0"
 
 taskcluster-lib-scopes@^11.0.0:
   version "11.0.0"
@@ -6382,8 +6377,7 @@ taskcluster-lib-scopes@^11.0.0:
     fast-json-stable-stringify "^2.1.0"
 
 "taskcluster-lib-testing@link:libraries/testing":
-  version "0.0.0"
-  uid ""
+  version "44.1.0"
 
 taskcluster-lib-urls@^13.0.0:
   version "13.0.1"
@@ -6391,8 +6385,7 @@ taskcluster-lib-urls@^13.0.0:
   integrity sha512-WrhKMbiWmpPrB0vbzLZq4W35mhdPVLklZY+qrBoI7KQzFAjO/qsgS8ssHL6eYmvBf4fE7C+C9ZFxQpQOUynQvg==
 
 "taskcluster-lib-validate@link:libraries/validate":
-  version "0.0.0"
-  uid ""
+  version "44.1.0"
 
 temporary@^1.0.0:
   version "1.1.0"
